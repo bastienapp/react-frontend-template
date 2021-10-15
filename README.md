@@ -47,15 +47,21 @@ If you've already cloned this repository, remove it and clone it again.
 
 1. Go to File -> Preferences -> Settings.
 2. On the top right corner, click on the file icon `Open Settings (JSON)`.
-3. Add this after the first opening curly brace (or before the last ending one):
+3. Add the code below before the last closing curly brace:
 
-```
+```json
+{
+  /* existing configurations... */
+
+  /* began to copy setting from here */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
   "files.eol": "\n",
   "editor.tabSize": 2,
+  /* do not copy after here */
+}
 ```
 
 You might have to close and reopen Visual Studio Code after the plugins install and setting changes.
