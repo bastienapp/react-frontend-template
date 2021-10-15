@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React Simple Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Already intalled and configured:
+* ESLint (airbnb)
+* Prettier
+* Stylelint (standard)
+* Husky with lint-staged
 
-## Available Scripts
+Install with `npm install` or `yarn install`
 
-In the project directory, you can run:
+Run with `npm start` or `yarn start`
 
-### `npm start`
+Lint with `npm run lint` or `yarn run lint`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Configure git (only for Windows)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Force git to use LF end of line everywhere:
 
-### `npm test`
+```bash
+git config --global core.eol lf
+git config --global core.autocrlf input
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you already clone this repository, remove it and clone it again.
 
-### `npm run build`
+# Configure Visual Studio Code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Install ESLint
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. In Visual Studio Code go to View -> Extensions
+2. Search for `eslint`: [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+3. Click Install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Install Prettier
 
-### `npm run eject`
+1. In Visual Studio Code go to View -> Extensions
+2. Search for `prettier code formatter`: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+3. Click Install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Install Stylelint
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. In Visual Studio Code go to View -> Extensions
+2. Search for `stylelint`: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+3. Click Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Visual Studio Code Settings
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Go to File -> Preferences -> Settings.
+2. Scroll down to `Edit in settings.json`. It will open your IDE settings in json format.
+3. Add this after the first opening curly brace (or before the last ending one):
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+```
