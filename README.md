@@ -21,7 +21,7 @@ git config --global core.eol lf
 git config --global core.autocrlf input
 ```
 
-If you already clone this repository, remove it and clone it again.
+If you've already cloned this repository, remove it and clone it again.
 
 # Configure Visual Studio Code
 
@@ -57,3 +57,5 @@ If you already clone this repository, remove it and clone it again.
   "files.eol": "\n",
   "editor.tabSize": 2,
 ```
+
+You might have to close and reopen Visual Studio Code after the plugins install and setting changes.
