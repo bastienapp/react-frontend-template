@@ -49,7 +49,7 @@ If you've already cloned this repository, remove it and clone it again.
 2. On the top right corner, click on the file icon `Open Settings (JSON)`.
 3. Add the code below before the last closing curly brace:
 
-```json
+```js
 {
   /* existing configurations... */
 
