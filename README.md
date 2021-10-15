@@ -46,7 +46,7 @@ If you've already cloned this repository, remove it and clone it again.
 ## Visual Studio Code Settings
 
 1. Go to File -> Preferences -> Settings.
-2. Scroll down to `Edit in settings.json`. It will open your IDE settings in json format.
+2. On the top right corner, click on the file icon `Open Settings (JSON)`.
 3. Add this after the first opening curly brace (or before the last ending one):
 
 ```
