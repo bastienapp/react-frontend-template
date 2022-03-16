@@ -52,5 +52,10 @@
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
