@@ -1,6 +1,6 @@
 {
   "name": "react-simple-boilerplate",
-  "version": "1.21.9",
+  "version": "1.22.3",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
