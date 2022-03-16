@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx --fix src/ && stylelint **.css --fix"
+    "lint": "eslint --ext .js,.jsx --fix src/"
   },
   "eslintConfig": {
     "extends": [
@@ -48,13 +48,10 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "4.3.8",
     "lint-staged": "^11.2.3",
-    "prettier": "2.4.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0"
+    "prettier": "2.4.1"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache",
-    "*.css": "stylelint"
+    "*.{js,jsx}": "eslint --cache"
   },
   "husky": {
     "hooks": {

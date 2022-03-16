@@ -3,7 +3,6 @@
 Already intalled and configured:
 * ESLint (airbnb)
 * Prettier
-* Stylelint (standard)
 * Husky with lint-staged
 
 Install with `npm install` or `yarn install`
@@ -37,12 +36,6 @@ If you've already cloned this repository, remove it and clone it again.
 2. Search for `prettier code formatter`: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 3. Click Install
 
-## Install Stylelint
-
-1. In Visual Studio Code go to View -> Extensions
-2. Search for `stylelint`: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-3. Click Install
-
 ## Visual Studio Code Settings
 
 1. Go to File -> Preferences -> Settings.
@@ -56,7 +49,6 @@ If you've already cloned this repository, remove it and clone it again.
   /* began to copy setting from here */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
   },
   "files.eol": "\n",
   "editor.tabSize": 2,
