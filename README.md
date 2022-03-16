@@ -1,15 +1,22 @@
 # React Simple Boilerplate
 
 Already intalled and configured:
-* ESLint (airbnb)
-* Prettier
-* Husky with lint-staged
+
+- ESLint (airbnb)
+- Prettier
+- Husky with lint-staged
 
 Install with `npm install` or `yarn install`
 
 Run with `npm start` or `yarn start`
 
 Lint with `npm run lint` or `yarn run lint`
+
+# Configure husky
+
+After the first installation, run (only once) :
+
+`npm run prepare`
 
 # Configure git (only for Windows)
 
