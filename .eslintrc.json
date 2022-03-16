@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": ["plugin:react/recommended", "airbnb", "plugin:react/jsx-runtime"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -13,7 +13,6 @@
   },
   "plugins": ["react"],
   "rules": {
-    "plugin:react/jsx-runtime": "extends",
     "radix": "off",
     "no-console": "warn",
     "indent": ["error", 2],
